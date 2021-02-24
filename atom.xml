@@ -74,7 +74,7 @@
     <link href="https://xiaobing0451.github.io/2021/02/22/github-hexo/"/>
     <id>https://xiaobing0451.github.io/2021/02/22/github-hexo/</id>
     <published>2021-02-22T09:25:00.000Z</published>
-    <updated>2021-02-24T01:08:41.106Z</updated>
+    <updated>2021-02-24T01:16:37.309Z</updated>
     
     
       
@@ -87,10 +87,10 @@
     
     
     
-    <category term="hexo" scheme="https://xiaobing0451.github.io/categories/hexo/"/>
+    <category term="hexo博客搭建" scheme="https://xiaobing0451.github.io/categories/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-    <category term="hexo" scheme="https://xiaobing0451.github.io/tags/hexo/"/>
+    <category term="hexo博客搭建" scheme="https://xiaobing0451.github.io/tags/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -145,31 +145,6 @@
   </entry>
   
   <entry>
-    <title>GitHub + jsDelivr + PicGo + Imagine 打造稳定快速、高效免费图床</title>
-    <link href="https://xiaobing0451.github.io/2018/09/07/tuchuang/"/>
-    <id>https://xiaobing0451.github.io/2018/09/07/tuchuang/</id>
-    <published>2018-09-07T09:25:00.000Z</published>
-    <updated>2021-02-23T13:09:49.047Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="图床" scheme="https://xiaobing0451.github.io/categories/%E5%9B%BE%E5%BA%8A/"/>
-    
-    
-    <category term="图床" scheme="https://xiaobing0451.github.io/tags/%E5%9B%BE%E5%BA%8A/"/>
-    
-  </entry>
-  
-  <entry>
     <title>如何搭建自己的私有云盘</title>
     <link href="https://xiaobing0451.github.io/2018/09/07/si-you-yun-pan/"/>
     <id>https://xiaobing0451.github.io/2018/09/07/si-you-yun-pan/</id>
@@ -194,6 +169,31 @@
     
     
     <category term="私有云盘" scheme="https://xiaobing0451.github.io/tags/%E7%A7%81%E6%9C%89%E4%BA%91%E7%9B%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub + jsDelivr + PicGo + Imagine 打造稳定快速、高效免费图床</title>
+    <link href="https://xiaobing0451.github.io/2018/09/07/tuchuang/"/>
+    <id>https://xiaobing0451.github.io/2018/09/07/tuchuang/</id>
+    <published>2018-09-07T09:25:00.000Z</published>
+    <updated>2021-02-23T13:09:49.047Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="图床" scheme="https://xiaobing0451.github.io/categories/%E5%9B%BE%E5%BA%8A/"/>
+    
+    
+    <category term="图床" scheme="https://xiaobing0451.github.io/tags/%E5%9B%BE%E5%BA%8A/"/>
     
   </entry>
   
