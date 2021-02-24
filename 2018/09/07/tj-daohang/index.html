@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, BingBingBlog">
+    <meta name="keywords" content="hexo 菜单_Hexo添加导航书签, BingBingBlog">
     <meta name="description" content="分享生活，分享知识">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | BingBingBlog</title>
+    <title>hexo 菜单_Hexo添加导航书签 | BingBingBlog</title>
     <link rel="icon" type="image/png" href="/favicon1.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,7 +313,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '';
+        let pwd = '615ed7fb1504b0c724a296d7a69e6c7b2f9ea2c57c1d8206c5afdf392ebdfd25';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -326,12 +326,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">hexo 菜单_Hexo添加导航书签</h1>
                 </div>
             </div>
         </div>
@@ -447,8 +447,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%A0%87%E7%AD%BE/">
-                                <span class="chip bg-color">标签</span>
+                            <a href="/tags/%E5%AF%BC%E8%88%AA/">
+                                <span class="chip bg-color">导航</span>
                             </a>
                         
                     </div>
@@ -459,8 +459,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%88%86%E7%B1%BB/" class="post-category">
-                                分类
+                            <a href="/categories/Hexo%E5%AF%BC%E8%88%AA/" class="post-category">
+                                Hexo导航
                             </a>
                         
                     </div>
@@ -472,28 +472,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-02-23
+                    2018-09-07
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-02-23
+                    2021-02-24
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    73
+                    544
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -516,19 +516,69 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+                <h2 id="添加书签导航"><a href="#添加书签导航" class="headerlink" title="添加书签导航"></a><strong>添加书签导航</strong></h2><h3 id="导语"><a href="#导语" class="headerlink" title="导语"></a>导语</h3><blockquote>
+<p>虽然浏览器中能保存各种各样的书签,但是同步是一个问题,展现又是另外一个问题,所以顺便在<code>hexo</code>中创建一个类书签导航.</p>
+<p>访问:<a target="_blank" rel="noopener" href="https://wenyan.online/navigate/">https://wenyan.online/navigate/</a> 查看效果</p>
+</blockquote>
+<h3 id="1-创建资源文件夹"><a href="#1-创建资源文件夹" class="headerlink" title="1.创建资源文件夹"></a>1.创建资源文件夹</h3><blockquote>
+<p>按照官网的说明,<code>source</code>文件存放了除去文章之外所有的资源(<code>css\js\images</code>),所以我们的文件要创建在这里.</p>
+<p>新建一个 <code>navigate</code>目录</p>
+<pre class="line-numbers language-none"><code class="language-none">❯ mkdir source/navigate/
+❯ cd source/navigate<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>创建好之后,可以直接放入开源的webstack,也可以根据它创建自己想要的<code>html</code>页面.</p>
+<p>这里我修改过一些文件,加入一个多重搜索引擎的快捷方式,如果你要使用,可以参考我的github示例代码</p>
+</blockquote>
+<h3 id="2-修改配置文件"><a href="#2-修改配置文件" class="headerlink" title="2.修改配置文件"></a>2.修改配置文件</h3><blockquote>
+<ul>
+<li>修改根目录下的<code>_config.yml</code>.因为<code>hexo</code>编译会对主题模板进行渲染之后生成静态页面,但是这个导航的网站本身就是 <code>html</code>文件,因此不需要渲染,那么跳过渲染就需要配置 <code>skip_render</code> 项.</li>
+</ul>
+<pre class="line-numbers language-none"><code class="language-none">skip_render: 
+  - 'navigate/**'<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
+<li>修改主题下的配置文件<code>_config.yml</code>.添加一级菜单如下:</li>
+</ul>
+<pre class="line-numbers language-none"><code class="language-none">Friends:
+ url: /friends
+ icon: fas fa-address-book
+Navigate:
+ url: /navigate
+ icon: fas fa-rocket <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
+<li>修改语言页面<code>languages/zh-CN.yml</code>:</li>
+</ul>
+<pre class="line-numbers language-none"><code class="language-none">Navigate: WenYan导航<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<ul>
+<li>修改<code>ejs</code>渲染文件(<code>layout/_partial_navigation.ejs</code>).</li>
+</ul>
+<pre class="line-numbers language-none"><code class="language-none">menuMap.set("Navigate", "WenYan导航")<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</blockquote>
+<h3 id="3-压缩css-js以及cdn加速"><a href="#3-压缩css-js以及cdn加速" class="headerlink" title="3.压缩css/js以及cdn加速"></a>3.压缩<code>css/js</code>以及<code>cdn</code>加速</h3><blockquote>
+<p>如果你使用的是<code>vs code</code>,建议安装<code>js css minifier</code>,然后使用快捷键<code>F1</code>,压缩<code>css/js</code>文件.</p>
+<p>然后就是<code>html</code>文档中所有使用到的<code>js/css/images</code>,建议全部使用<code>jsdelivr</code>加速访问.</p>
+</blockquote>
+<h3 id="4-编译文件"><a href="#4-编译文件" class="headerlink" title="4.编译文件"></a>4.编译文件</h3><blockquote>
+<pre class="line-numbers language-none"><code class="language-none">$ hexo g
+$ hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+</blockquote>
+<h3 id="5-效果展示"><a href="#5-效果展示" class="headerlink" title="5.效果展示"></a>5.效果展示</h3><blockquote>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/d1d430d98f0654cef1203a14f55099ed.png" alt="d1d430d98f0654cef1203a14f55099ed.png"></p>
+</blockquote>
+<h3 id="6-添加网页"><a href="#6-添加网页" class="headerlink" title="6.添加网页"></a>6.添加网页</h3><blockquote>
+<p>由于定位类书签的缘故,它收录的地址并不是完全的,是需要去实时更新添加的.但是它的结构非常简单,这里简单的说下</p>
+<ul>
+<li>侧边栏,主要更新 <code>main-menu</code></li>
+</ul>
+<pre class="line-numbers language-none"><code class="language-none">&lt;ul id="main-menu" class="main-menu"&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<ul>
+<li>展示栏,主要更新<code>row</code>中的内容.</li>
+</ul>
+<pre class="line-numbers language-none"><code class="language-none">&lt;h4 class="text-gray"&gt;&lt;i class="linecons-tag" style="margin-right: 7px;" id="常用推荐"&gt;i&gt;常用推荐h4&gt;
+&lt;div class="row"&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></blockquote>
 
                 
             </div>
@@ -555,7 +605,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://xiaobing0451.github.io/2021/02/23/hello-world/">https://xiaobing0451.github.io/2021/02/23/hello-world/</a>
+                    <a href="https://xiaobing0451.github.io/2018/09/07/tj-daohang/">https://xiaobing0451.github.io/2018/09/07/tj-daohang/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -593,8 +643,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%A0%87%E7%AD%BE/">
-                                    <span class="chip bg-color">标签</span>
+                                <a href="/tags/%E5%AF%BC%E8%88%AA/">
+                                    <span class="chip bg-color">导航</span>
                                 </a>
                             
                         </div>
@@ -644,13 +694,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/02/24/hexo-theme-matery/">
+                <a href="/2021/02/19/delforkme/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="hexo-theme-matery">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="WordPress版WebStack导航主题删除右上角的fork me on github方法">
                         
-                        <span class="card-title">hexo-theme-matery</span>
+                        <span class="card-title">WordPress版WebStack导航主题删除右上角的fork me on github方法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -661,14 +711,14 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-02-24
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-02-19
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-category">
-                                    hexo博客搭建
+                            <a href="/categories/WordPress%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    WordPress博客
                                 </a>
                             
                             
@@ -678,8 +728,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                        <span class="chip bg-color">hexo博客搭建</span>
+                    <a href="/tags/WordPress%E5%8D%9A%E5%AE%A2/">
+                        <span class="chip bg-color">WordPress博客</span>
                     </a>
                     
                 </div>
@@ -693,13 +743,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/02/22/github-hexo/">
+                <a href="/2018/09/07/si-you-yun-pan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="基于Github部署Hexo博客详细教程">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="如何搭建自己的私有云盘">
                         
-                        <span class="card-title">基于Github部署Hexo博客详细教程</span>
+                        <span class="card-title">如何搭建自己的私有云盘</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -710,14 +760,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-22
+                                <i class="far fa-clock fa-fw icon-date"></i>2018-09-07
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-category">
-                                    Hexo博客搭建
+                            <a href="/categories/%E7%A7%81%E6%9C%89%E4%BA%91%E7%9B%98/" class="post-category">
+                                    私有云盘
                                 </a>
                             
                             
@@ -727,8 +777,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                        <span class="chip bg-color">Hexo博客搭建</span>
+                    <a href="/tags/%E7%A7%81%E6%9C%89%E4%BA%91%E7%9B%98/">
+                        <span class="chip bg-color">私有云盘</span>
                     </a>
                     
                 </div>

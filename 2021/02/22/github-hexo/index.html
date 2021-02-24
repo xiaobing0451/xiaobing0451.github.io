@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, BingBingBlog">
+    <meta name="keywords" content="基于Github部署Hexo博客详细教程, BingBingBlog">
     <meta name="description" content="分享生活，分享知识">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | BingBingBlog</title>
+    <title>基于Github部署Hexo博客详细教程 | BingBingBlog</title>
     <link rel="icon" type="image/png" href="/favicon1.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -326,12 +326,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">基于Github部署Hexo博客详细教程</h1>
                 </div>
             </div>
         </div>
@@ -447,8 +447,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%A0%87%E7%AD%BE/">
-                                <span class="chip bg-color">标签</span>
+                            <a href="/tags/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
+                                <span class="chip bg-color">Hexo博客搭建</span>
                             </a>
                         
                     </div>
@@ -459,8 +459,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%88%86%E7%B1%BB/" class="post-category">
-                                分类
+                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-category">
+                                Hexo博客搭建
                             </a>
                         
                     </div>
@@ -472,28 +472,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-02-23
+                    2021-02-22
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-02-23
+                    2021-02-24
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    73
+                    985
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
 
@@ -516,19 +516,114 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+                <p>作者：老英 / 原文链接:<a target="_blank" rel="noopener" href="https://blog.dadiopi.top/index.php/archives/233/">https://blog.dadiopi.top/index.php/archives/233/</a></p>
+<blockquote>
+<p>Hexo中文官网 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>
+</blockquote>
+<ol>
+<li>安装git</li>
+<li>安装NodeJs</li>
+<li>安装hexo</li>
+<li>生成SSH并添加到github</li>
+<li>部署项目到github</li>
+</ol>
+<h2 id="一、安装Git工具"><a href="#一、安装Git工具" class="headerlink" title="一、安装Git工具"></a>一、安装Git工具</h2><blockquote>
+<p>Git官方网站 <a target="_blank" rel="noopener" href="https://git-scm.com/">https://git-scm.com/</a></p>
+</blockquote>
+<h3 id="1-windows安装"><a href="#1-windows安装" class="headerlink" title="1.windows安装"></a>1.windows安装</h3><p>下载exe安装包直接安装下一步就可以<br>安装完成打开终端输入 <code>git --version</code> 输出版本号</p>
+<h3 id="2-Mac安装"><a href="#2-Mac安装" class="headerlink" title="2.Mac安装"></a>2.Mac安装</h3><h5 id="1）首先查看电脑是否安装Git，终端输入："><a href="#1）首先查看电脑是否安装Git，终端输入：" class="headerlink" title="1）首先查看电脑是否安装Git，终端输入："></a>1）首先查看电脑是否安装Git，终端输入：</h5><pre class="line-numbers language-none"><code class="language-none">git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>安装过则会输出：</p>
+<pre class="line-numbers language-none"><code class="language-none">    MacBook-Pro:~ WENBO$ git
+usage: git [--version] [--help] [-C &lt;path&gt;] [-c name=value]
+           [--exec-path[=&lt;path&gt;]] [--html-path] [--man-path] [--info-path]
+................
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help &lt;command&gt;' or 'git help &lt;concept&gt;'
+to read about a specific subcommand or concept.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h5 id="2-通过homebrew安装Git"><a href="#2-通过homebrew安装Git" class="headerlink" title="2)通过homebrew安装Git"></a>2)通过homebrew安装Git</h5><ul>
+<li>未安装homebrew，需安装homebrew</li>
+</ul>
+<pre class="line-numbers language-none"><code class="language-none">/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
+<li>安装git</li>
+</ul>
+<pre class="line-numbers language-none"><code class="language-none">brew install git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h3 id="3-Linux安装"><a href="#3-Linux安装" class="headerlink" title="3.Linux安装"></a>3.Linux安装</h3><p>根据自己系统选择使用<br><code>yum install -y git</code><br>或者<br><code>apt-get install -y git</code></p>
+<h2 id="二、安装Nodejs"><a href="#二、安装Nodejs" class="headerlink" title="二、安装Nodejs"></a>二、安装Nodejs</h2><blockquote>
+<p>Nodejs 官网 <a target="_blank" rel="noopener" href="https://nodejs.org/en/">https://nodejs.org/en/</a></p>
+</blockquote>
+<h3 id="1-WIN安装Nodejs"><a href="#1-WIN安装Nodejs" class="headerlink" title="1.WIN安装Nodejs"></a>1.WIN安装Nodejs</h3><p>官网下载对应exe版本，下一步安装</p>
+<h3 id="2-Mac安装Nodejs"><a href="#2-Mac安装Nodejs" class="headerlink" title="2.Mac安装Nodejs"></a>2.Mac安装Nodejs</h3><p>类似于之前步骤，使用brew安装</p>
+<pre class="line-numbers language-none"><code class="language-none">brew install -g node<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="3-Linux安装Nodejs"><a href="#3-Linux安装Nodejs" class="headerlink" title="3.Linux安装Nodejs"></a>3.Linux安装Nodejs</h3><p>Linux安装稍显复杂，时间原因没有整理，可查看百度或者试用此脚本<br><a target="_blank" rel="noopener" href="https://blogcdn.dadiopi.top/nodejs_install.sh">nodejs_install.sh</a></p>
+<h2 id="三、安装Hexo-此步骤以后Win、Mac等平台操作命令一样"><a href="#三、安装Hexo-此步骤以后Win、Mac等平台操作命令一样" class="headerlink" title="三、安装Hexo(此步骤以后Win、Mac等平台操作命令一样)"></a>三、安装Hexo(此步骤以后Win、Mac等平台操作命令一样)</h2><p>1）在自己想要的目录新建一文件夹，命名自定义 例如<code>Hexo</code><br>2）终端进入到新建的目录<br>3）使用命令安装Hexo</p>
+<pre class="line-numbers language-none"><code class="language-none">npm install hexo-cli -g<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>4）安装完毕之后，输入 <code>hexo -v</code>输出版本信息</p>
+<pre class="line-numbers language-none"><code class="language-none">$ hexo -v
+hexo: 4.0.0
+hexo-cli: 3.1.0
+os: Windows_NT 10.0.18362 win32 x64
+http_parser: 2.8.0
+node: 10.16.2
+v8: 6.8.275.32-node.54
+uv: 1.28.0
+zlib: 1.2.11
+brotli: 1.0.7
+ares: 1.15.0
+modules: 64
+nghttp2: 1.34.0
+napi: 4
+openssl: 1.1.1c
+icu: 64.2
+unicode: 12.1
+cldr: 35.1
+tz: 2019a<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>5）初始化命令 <code>hexo init</code><br><code>会输出以下目录结构</code>：</p>
+<pre class="line-numbers language-none"><code class="language-none">node_modules：是依赖包
+public：存放的是生成的页面
+scaffolds：命令生成文章等的模板
+source：用命令创建的各种文章
+themes：主题
+_config.yml：整个博客的配置
+db.json：source解析所得到的
+package.json：项目所需模块项目的配置信息<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>6）使用命令<code>npm install</code>安装依赖<br>7）使用命令 <code>hexo generate</code> 生成页面<br>8）使用命令 <code>hexo server</code> 启动服务</p>
+<pre class="line-numbers language-none"><code class="language-none">$ hexo server
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>打开浏览器输入 <a target="_blank" rel="noopener" href="http://localhost/">http://localhost</a>:4000 访问成功<br>使用Ctrl+C中断本地服务，也可使用命令hexo server -p 5000指定端口，访问<a target="_blank" rel="noopener" href="http://localhost/">http://localhost</a>:5000/</p>
+<h2 id="四、生成SSH添加到github"><a href="#四、生成SSH添加到github" class="headerlink" title="四、生成SSH添加到github"></a>四、生成SSH添加到github</h2><p>1)登录github新建一个仓库，格式为 <code>username.github.io</code><br>例如 我的用户名为 zhangsan 那么 仓库名应为 <code>zhangsan.github.io</code></p>
+<ol start="2">
+<li>回到gitbash中，配置github账户信息（YourName和YourEail都替换成你自己的）：</li>
+</ol>
+<pre class="line-numbers language-none"><code class="language-none">git config --global user.name "YourName"
+git config --global user.email "YourEail"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>3）在gitbash中输入：<code>ssh-keygen -t rsa -C "替换成你的github邮箱</code> 生成ssh。<br>然后按终端给出的路径的方式找到<code>id_rsa.pub</code>文件 并复制其中的内容。</p>
+<p>4）进到新建的github仓库 点击右上角<code>setting</code>进入设置找到<code>Deploy keys</code><br>选择 <code>Add Deploy keys</code> Title随便填写 Key的内容为刚才复制的 <code>id_rsa.pub</code>文件中的内容</p>
+<p>5）在gitbash中验证是否添加成功：<code>ssh -T git@github.com</code></p>
+<h2 id="五、部署项目的github"><a href="#五、部署项目的github" class="headerlink" title="五、部署项目的github"></a>五、部署项目的github</h2><p>1）用编辑器打开你的hexo项目文件夹，修改<code>_config.yml</code>文件的一些配置(冒号之后都是有一个半角空格的)</p>
+<pre class="line-numbers language-none"><code class="language-none">deploy:
+  type: git
+  repo: https://github.com/YourgithubName/YourgithubName.github.io.git
+  branch: master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>2）回到gitbash中，进入你的hexo目录，分别执行以下命令</p>
+<pre class="line-numbers language-none"><code class="language-none">npm install hexo-deployer-git --save  #安装部署工具
+hexo clean   #清除缓存
+hexo generate    #生成静态文件
+hexo deploy    #部署到github<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>在浏览器中输入<a target="_blank" rel="noopener" href="http://yourgithubname.github.io/">http://yourgithubname.github.io</a> 就可以看到你的个人博客</p>
 
                 
             </div>
@@ -545,7 +640,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">Bing Bing</a>
+                    <a href="/about" rel="external nofollow noreferrer">老英</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -555,7 +650,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://xiaobing0451.github.io/2021/02/23/hello-world/">https://xiaobing0451.github.io/2021/02/23/hello-world/</a>
+                    <a href="https://xiaobing0451.github.io/2021/02/22/github-hexo/">https://xiaobing0451.github.io/2021/02/22/github-hexo/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -568,7 +663,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="/about" target="_blank">Bing Bing</a>
+                    <a href="/about" target="_blank">老英</a>
                     !
                 </span>
             </div>
@@ -593,8 +688,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%A0%87%E7%AD%BE/">
-                                    <span class="chip bg-color">标签</span>
+                                <a href="/tags/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
+                                    <span class="chip bg-color">Hexo博客搭建</span>
                                 </a>
                             
                         </div>
@@ -644,13 +739,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/02/24/hexo-theme-matery/">
+                <a href="/2021/02/23/hello-world/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="hexo-theme-matery">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
                         
-                        <span class="card-title">hexo-theme-matery</span>
+                        <span class="card-title">Hello World</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -661,14 +756,14 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-02-24
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-02-23
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-category">
-                                    hexo博客搭建
+                            <a href="/categories/%E5%88%86%E7%B1%BB/" class="post-category">
+                                    分类
                                 </a>
                             
                             
@@ -678,8 +773,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                        <span class="chip bg-color">hexo博客搭建</span>
+                    <a href="/tags/%E6%A0%87%E7%AD%BE/">
+                        <span class="chip bg-color">标签</span>
                     </a>
                     
                 </div>
@@ -693,13 +788,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/02/22/github-hexo/">
+                <a href="/2021/02/19/delforkme/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="基于Github部署Hexo博客详细教程">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="WordPress版WebStack导航主题删除右上角的fork me on github方法">
                         
-                        <span class="card-title">基于Github部署Hexo博客详细教程</span>
+                        <span class="card-title">WordPress版WebStack导航主题删除右上角的fork me on github方法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -710,14 +805,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-22
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-19
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-category">
-                                    Hexo博客搭建
+                            <a href="/categories/WordPress%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    WordPress博客
                                 </a>
                             
                             
@@ -727,8 +822,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                        <span class="chip bg-color">Hexo博客搭建</span>
+                    <a href="/tags/WordPress%E5%8D%9A%E5%AE%A2/">
+                        <span class="chip bg-color">WordPress博客</span>
                     </a>
                     
                 </div>
