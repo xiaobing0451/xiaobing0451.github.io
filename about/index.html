@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="BingBingBlog" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="BingBingBlog" type="application/atom+xml">
 </head>
 
 
@@ -100,17 +100,6 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/about" class="waves-effect waves-light">
-      
-      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
-      
-      <span>关于</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/contact" class="waves-effect waves-light">
       
       <i class="fas fa-comments" style="zoom: 0.6;"></i>
@@ -126,7 +115,7 @@
       
       <i class="fas fa-rocket" style="zoom: 0.6;"></i>
       
-      <span>网址导航</span>
+      <span>快捷导航</span>
     </a>
     
   </li>
@@ -144,44 +133,12 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="" class="waves-effect waves-light">
-
+    <a href="/about" class="waves-effect waves-light">
       
-      <i class="fas fa-list" style="zoom: 0.6;"></i>
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
-      <span>清单</span>
-      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+      <span>关于</span>
     </a>
-    <ul class="sub-nav menus_item_child ">
-      
-      <li>
-        <a href="/musics">
-          
-          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>音乐</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/movies">
-          
-          <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>视频</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/galleries">
-          
-          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>相册</span>
-        </a>
-      </li>
-      
-    </ul>
     
   </li>
   
@@ -257,17 +214,6 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/about" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-user-circle"></i>
-			
-			关于
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
 		<a href="/contact" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-comments"></i>
@@ -283,7 +229,7 @@
 			
 			    <i class="fa-fw fas fa-rocket"></i>
 			
-			网址导航
+			快捷导航
 		</a>
           
         </li>
@@ -301,46 +247,12 @@
         
         <li class="m-nav-item">
 	  
-		<a href="javascript:;">
+		<a href="/about" class="waves-effect waves-light">
 			
-				<i class="fa-fw fas fa-list"></i>
+			    <i class="fa-fw fas fa-user-circle"></i>
 			
-			清单
-			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+			关于
 		</a>
-            <ul  style="background:  ;" >
-              
-                <li>
-
-                  <a href="/musics " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
-			      
-		          <span>音乐</span>
-                  </a>
-                </li>
-              
-                <li>
-
-                  <a href="/movies " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
-			      
-		          <span>视频</span>
-                  </a>
-                </li>
-              
-                <li>
-
-                  <a href="/galleries " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
-			      
-		          <span>相册</span>
-                  </a>
-                </li>
-              
-            </ul>
           
         </li>
         
@@ -669,7 +581,7 @@
         },
         xAxis: {
             type: 'category',
-            data: ["2020-02","2020-03","2020-04","2020-05","2020-06","2020-07","2020-08","2020-09","2020-10","2020-11","2020-12","2021-01","2021-02"]
+            data: ["2020-03","2020-04","2020-05","2020-06","2020-07","2020-08","2020-09","2020-10","2020-11","2020-12","2021-01","2021-02","2021-03"]
         },
         yAxis: {
             type: 'value',
@@ -679,7 +591,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,4],
+                data: [0,0,0,0,0,0,0,0,0,0,0,4,0],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -721,7 +633,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"WordPress博客","value":1},{"name":"hexo博客搭建","value":3},{"name":"分类","value":1},{"name":"图床","value":1},{"name":"私有云盘","value":1}],
+                data: [{"name":"hexo博客搭建","value":3},{"name":"WordPress博客","value":1},{"name":"分类","value":1},{"name":"私有云盘","value":1},{"name":"图床","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -745,7 +657,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["hexo博客搭建","WordPress博客","标签","图床","私有云盘"]
+                data: ["hexo博客搭建","WordPress博客","标签","私有云盘","图床"]
             }
         ],
         yAxis: [
@@ -876,14 +788,14 @@
         <div class="tag-chips center-align">
             
             
-            <a href="/tags/WordPress%E5%8D%9A%E5%AE%A2/">
-                <span class="chip center-align waves-effect waves-light chip-default">WordPress博客</span>
+            <a href="/tags/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
+                <span class="chip center-align waves-effect waves-light chip-default">hexo博客搭建</span>
             </a>
             
             
             
-            <a href="/tags/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                <span class="chip center-align waves-effect waves-light chip-default">hexo博客搭建</span>
+            <a href="/tags/WordPress%E5%8D%9A%E5%AE%A2/">
+                <span class="chip center-align waves-effect waves-light chip-default">WordPress博客</span>
             </a>
             
             
@@ -894,14 +806,14 @@
             
             
             
-            <a href="/tags/%E5%9B%BE%E5%BA%8A/">
-                <span class="chip center-align waves-effect waves-light chip-default">图床</span>
+            <a href="/tags/%E7%A7%81%E6%9C%89%E4%BA%91%E7%9B%98/">
+                <span class="chip center-align waves-effect waves-light chip-default">私有云盘</span>
             </a>
             
             
             
-            <a href="/tags/%E7%A7%81%E6%9C%89%E4%BA%91%E7%9B%98/">
-                <span class="chip center-align waves-effect waves-light chip-default">私有云盘</span>
+            <a href="/tags/%E5%9B%BE%E5%BA%8A/">
+                <span class="chip center-align waves-effect waves-light chip-default">图床</span>
             </a>
             
             
@@ -915,52 +827,36 @@
 
                 
                 
-<div id="myGallery" class="my-gallery">
-    <div class="title center-align" data-aos="zoom-in-up">
-        <i class="far fa-image"></i>&nbsp;&nbsp;相册
-    </div>
-    <div class="row">
-        
-        
-        <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="/medias/featureimages/0.jpg">
-                <img src="/medias/featureimages/0.jpg" class="responsive-img">
+                
+                
             </div>
         </div>
-        
-        <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="/medias/featureimages/1.jpg">
-                <img src="/medias/featureimages/1.jpg" class="responsive-img">
-            </div>
-        </div>
-        
-        <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="/medias/featureimages/2.jpg">
-                <img src="/medias/featureimages/2.jpg" class="responsive-img">
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
 
-<script>
-    $(function () {
-        let animateClass = 'animated pulse';
-        $('#myGallery .photo').hover(function () {
-            $(this).addClass(animateClass);
-        }, function () {
-            $(this).removeClass(animateClass);
-        });
-    });
-</script>
+        <div class="card">
+            <div class="card-content">
+                <div class="card-content article-card-content">
+                        <div class="title center-align" data-aos="zoom-in-up">
+                            <i class="fa fa-address-book"></i>&nbsp;&nbsp;我的简历
+                        </div>
+                        <div id="articleContent" data-aos="fade-up">
+                            <h1 id="教育经历"><a href="#教育经历" class="headerlink" title="教育经历"></a>教育经历</h1><ul>
+<li><b>待更……</b><br>待更……</li>
+</ul>
+<h1 id="获得荣誉"><a href="#获得荣誉" class="headerlink" title="获得荣誉"></a>获得荣誉</h1><ul>
+<li><b>待更……</b><br>待更……</li>
+<li><b>待更……</b></li>
+</ul>
+<h1 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h1><ul>
+<li><b>待更……</b><br>待更……</li>
+<li><b>待更……</b><br>待更……</li>
+<li><b>待更……</b><br>待更……</li>
+</ul>
 
-                
-                
-                
-                
+                        </div>
+                </div>
             </div>
         </div>
+        
     </div>
 </main>
 
@@ -1012,13 +908,13 @@
 <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
 
     
-    <div class="container row center-align" style="margin-bottom: 0px !important;">
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
                 <span id="year">2019-2021</span>
-            
-            <span id="year">2019</span>
+            <!--
+            <span id="year">2019</span>-->
             <a href="/about" target="_blank">Bing Bing</a>
             <br>
             
@@ -1042,6 +938,50 @@
             </span>
             
             <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2019";
+                    var startMonth = "6";
+                    var startDate = "28";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已勉强运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已勉强运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
             
             <br>
             
@@ -1242,6 +1182,8 @@ $(function () {
 
     
 
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
     
 
     
